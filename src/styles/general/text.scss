@@ -1,0 +1,22 @@
+.text {
+  font-size: 12px;
+  line-height: 1.46;
+  color: $text-color;
+  display: block;
+  text-align: center;
+  margin-block-start: unset;
+  margin-block-end: unset;
+}
+
+@media (min-width: $tablet) {
+  .text {
+    font-size: 15px;
+    line-height: 21.92px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .text {
+    text-align: left;
+  }
+}

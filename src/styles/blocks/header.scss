@@ -1,0 +1,33 @@
+.header {
+  border-bottom: 1px solid $border-color;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.header__text {
+  font-size: 12px;
+  line-height: 1.2;
+  color: $text-color-additional;
+  display: block;
+  text-align: center;
+}
+
+@media (min-width: $tablet) {
+  .header {
+    padding-top: 26px;
+    padding-bottom: 21px;
+  }
+  .header__container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__text {
+    font-size: 15px;
+  }
+}

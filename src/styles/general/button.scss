@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  background-color: $text-color-custom;
+  color: $text-color-accent;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23.4px;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  width: fit-content;
+  border: none;
+  border-radius: 6px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+@media (min-width: $tablet) {
+  .button {
+    font-size: 15px;
+    padding: 15px 30px;
+  }
+}

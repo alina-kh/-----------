@@ -1,0 +1,50 @@
+.title {
+  display: block;
+  color: $text-color;
+  text-align: center;
+  margin-block-start: unset;
+  margin-block-end: unset;
+}
+
+.title--h1 {
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.title--h2 {
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.title--h3 {
+  font-size: 18px;
+  line-height: 1.32;
+}
+
+.title span {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+@media (min-width: $tablet) {
+  .title--h1 {
+    font-size: 90px;
+    line-height: 108px;
+  }
+  
+  .title--h2 {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+  
+  .title--h3 {
+    font-size: 22px;
+    line-height: 29.04px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .title {
+    text-align: left;
+  }
+}

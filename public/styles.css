@@ -243,6 +243,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .header__text {
